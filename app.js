@@ -14,10 +14,10 @@ const categoryRoutes = require("./routes/category");
 const productRoutes = require("./routes/product");
 const orderRoutes = require("./routes/order");
 const stripePaymentRoutes = require("./routes/stripePayment");
-// const paymentBRoutes = require("./routes/paymentBRoutes");
+//const paymentBRoutes = require("./routes/paymentBRoutes");
 
 
-//DB Connection
+// for DB Connection
 mongoose
   .connect(process.env.DATABASE, {
     useNewUrlParser: true,
