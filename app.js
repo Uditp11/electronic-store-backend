@@ -28,7 +28,7 @@ mongoose
     console.log("DB CONNECTED");
   });
 
-//Middlewares
+//Middlewares took
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
