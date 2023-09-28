@@ -44,7 +44,7 @@ app.use("/api", stripePaymentRoutes);
 // app.use("/api", paymentBRoutes);
 
 
-//PORT
+//PORT acquired
 const port = process.env.PORT || 8000;
 
 //Starting a server
